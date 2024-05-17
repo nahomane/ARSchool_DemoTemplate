@@ -208,7 +208,7 @@ window.ARApp.initUI = function() {
     button.style.background = "transparent";
     button.style.margin = "5px";
     button.classList.add('round-button');
-    button.innerHTML = `<img src="https://nahomane.github.io/ARSchool_DemoTemplate/thumbnails/${buttonImageName}.PNG" alt="Model ${index+1}"">`;
+    button.innerHTML = `<img src="https://nahomane.github.io/ARSchool_DemoTemplate/thumbnails/${buttonImageName}.png" alt="Model ${index+1}"">`;
     console.log(index+" "+path);
     button.onclick = () => {
       if(this.models[index] == undefined || this.models[index] == null) {
