@@ -1,32 +1,32 @@
 window.ARApp = {
   gltfLoader: new THREE.GLTFLoader(),
   glbFilePaths: [
-    "../assets/Alligator.glb",
-    "../assets/Bear.glb",
-    "../assets/Cat.glb",
-    "../assets/Dog.glb",
-    "../assets/Elephant.glb",
-    "../assets/Fox.glb",
-    "../assets/Giraffe.glb",
-    "../assets/Horse.glb",
-    "../assets/Iguana.glb",
-    "../assets/Jellyfish.glb",
-    "../assets/Kiwi.glb",
-    "../assets/Lion.glb",
-    "../assets/Mouse.glb",
-    "../assets/Newt.glb",
-    "../assets/Ostrich.glb",
-    "../assets/Penguin.glb",
-    "../assets/Quoll.glb",
-    "../assets/Rhino.glb",
-    "../assets/Skunk.glb",
-    "../assets/Turtle.glb",
-    "../assets/Ulysses_butterfly.glb",
-    "../assets/Vampire_bat.glb",
-    "../assets/Wolf.glb",
-    "../assets/Xenoceratops.glb",
-    "../assets/YellowJacket_wasp.glb",
-    "../assets/Zebra.glb"],
+    "./assets/Alligator.glb",
+    "./assets/Bear.glb",
+    "./assets/Cat.glb",
+    "./assets/Dog.glb",
+    "./assets/Elephant.glb",
+    "./assets/Fox.glb",
+    "./assets/Giraffe.glb",
+    "./assets/Horse.glb",
+    "./assets/Iguana.glb",
+    "./assets/Jellyfish.glb",
+    "./assets/Kiwi.glb",
+    "./assets/Lion.glb",
+    "./assets/Mouse.glb",
+    "./assets/Newt.glb",
+    "./assets/Ostrich.glb",
+    "./assets/Penguin.glb",
+    "./assets/Quoll.glb",
+    "./assets/Rhino.glb",
+    "./assets/Skunk.glb",
+    "./assets/Turtle.glb",
+    "./assets/Ulysses_butterfly.glb",
+    "./assets/Vampire_bat.glb",
+    "./assets/Wolf.glb",
+    "./assets/Xenoceratops.glb",
+    "./assets/YellowJacket_wasp.glb",
+    "./assets/Zebra.glb"],
 
   glbModelsScales: [
     0.1,
@@ -70,32 +70,32 @@ window.ARApp = {
     "Dung Beetle description..."
   ],
   sounds: [
-    "../sounds/Alligator.mp3",
-    "../sounds/Bear.mp3",
-    "../sounds/Cat.mp3",
-    "../sounds/Dog.mp3",
-    "../sounds/Elephant.mp3",
-    "../sounds/Fox.mp3",
-    "../sounds/Giraffe.mp3",
-    "../sounds/Horse.mp3",
-    "../sounds/Iguana.mp3",
-    "../sounds/Jellyfish.mp3",
-    "../sounds/Kiwi.mp3",
-    "../sounds/Lion.mp3",
-    "../sounds/Mouse.mp3",
-    "../sounds/Newt.mp3",
-    "../sounds/Ostrich.mp3",
-    "../sounds/Penguin.mp3",
-    "../sounds/Quoll.mp3",
-    "../sounds/Rhino.mp3",
-    "../sounds/Skunk.mp3",
-    "../sounds/Turtle.mp3",
-    "../sounds/Ulysses_butterfly.mp3",
-    "../sounds/Vampire_bat.mp3",
-    "../sounds/Wolf.mp3",
-    "../sounds/Xenoceratops.mp3",
-    "../sounds/YellowJacket_wasp.mp3",
-    "../sounds/Zebra.mp3"
+    "./sounds/Alligator.mp3",
+    "./sounds/Bear.mp3",
+    "./sounds/Cat.mp3",
+    "./sounds/Dog.mp3",
+    "./sounds/Elephant.mp3",
+    "./sounds/Fox.mp3",
+    "./sounds/Giraffe.mp3",
+    "./sounds/Horse.mp3",
+    "./sounds/Iguana.mp3",
+    "./sounds/Jellyfish.mp3",
+    "./sounds/Kiwi.mp3",
+    "./sounds/Lion.mp3",
+    "./sounds/Mouse.mp3",
+    "./sounds/Newt.mp3",
+    "./sounds/Ostrich.mp3",
+    "./sounds/Penguin.mp3",
+    "./sounds/Quoll.mp3",
+    "./sounds/Rhino.mp3",
+    "./sounds/Skunk.mp3",
+    "./sounds/Turtle.mp3",
+    "./sounds/Ulysses_butterfly.mp3",
+    "./sounds/Vampire_bat.mp3",
+    "./sounds/Wolf.mp3",
+    "./sounds/Xenoceratops.mp3",
+    "./sounds/YellowJacket_wasp.mp3",
+    "./sounds/Zebra.mp3"
   ],
   loadingStates: [],
 };
@@ -203,12 +203,12 @@ window.ARApp.toggleAudio = function (shouldPlay) {
 window.ARApp.initUI = function() {
   const carousel = document.getElementById('modelCarousel');
   this.glbFilePaths.forEach((path, index) => {
-    const buttonImageName = new String(path).replace("../assets/","").replace(".glb","");
+    const buttonImageName = new String(path).replace("./assets/","").replace(".glb","");
     const button = document.createElement('button');
     button.style.background = "transparent";
     button.style.margin = "5px";
     button.classList.add('round-button');
-    button.innerHTML = `<img src="../thumbnails/${buttonImageName}.PNG" alt="Model ${index+1}"">`;
+    button.innerHTML = `<img src="./thumbnails/${buttonImageName}.PNG" alt="Model ${index+1}"">`;
     console.log(index+" "+path);
     button.onclick = () => {
       if(this.models[index] == undefined || this.models[index] == null) {
