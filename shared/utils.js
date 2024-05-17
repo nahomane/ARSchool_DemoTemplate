@@ -1,32 +1,32 @@
 window.ARApp = {
   gltfLoader: new THREE.GLTFLoader(),
   glbFilePaths: [
-    "./assets/Alligator.glb",
-    "./assets/Bear.glb",
-    "./assets/Cat.glb",
-    "./assets/Dog.glb",
-    "./assets/Elephant.glb",
-    "./assets/Fox.glb",
-    "./assets/Giraffe.glb",
-    "./assets/Horse.glb",
-    "./assets/Iguana.glb",
-    "./assets/Jellyfish.glb",
-    "./assets/Kiwi.glb",
-    "./assets/Lion.glb",
-    "./assets/Mouse.glb",
-    "./assets/Newt.glb",
-    "./assets/Ostrich.glb",
-    "./assets/Penguin.glb",
-    "./assets/Quoll.glb",
-    "./assets/Rhino.glb",
-    "./assets/Skunk.glb",
-    "./assets/Turtle.glb",
-    "./assets/Ulysses_butterfly.glb",
-    "./assets/Vampire_bat.glb",
-    "./assets/Wolf.glb",
-    "./assets/Xenoceratops.glb",
-    "./assets/YellowJacket_wasp.glb",
-    "./assets/Zebra.glb"],
+    "https://nahomane.github.io/ARSchool_DemoTemplate/assets/Alligator.glb",
+    "https://nahomane.github.io/ARSchool_DemoTemplate/assets/Bear.glb",
+    "https://nahomane.github.io/ARSchool_DemoTemplate/assets/Cat.glb",
+    "https://nahomane.github.io/ARSchool_DemoTemplate/assets/Dog.glb",
+    "https://nahomane.github.io/ARSchool_DemoTemplate/assets/Elephant.glb",
+    "https://nahomane.github.io/ARSchool_DemoTemplate/assets/Fox.glb",
+    "https://nahomane.github.io/ARSchool_DemoTemplate/assets/Giraffe.glb",
+    "https://nahomane.github.io/ARSchool_DemoTemplate/assets/Horse.glb",
+    "https://nahomane.github.io/ARSchool_DemoTemplate/assets/Iguana.glb",
+    "https://nahomane.github.io/ARSchool_DemoTemplate/assets/Jellyfish.glb",
+    "https://nahomane.github.io/ARSchool_DemoTemplate/assets/Kiwi.glb",
+    "https://nahomane.github.io/ARSchool_DemoTemplate/assets/Lion.glb",
+    "https://nahomane.github.io/ARSchool_DemoTemplate/assets/Mouse.glb",
+    "https://nahomane.github.io/ARSchool_DemoTemplate/assets/Newt.glb",
+    "https://nahomane.github.io/ARSchool_DemoTemplate/assets/Ostrich.glb",
+    "https://nahomane.github.io/ARSchool_DemoTemplate/assets/Penguin.glb",
+    "https://nahomane.github.io/ARSchool_DemoTemplate/assets/Quoll.glb",
+    "https://nahomane.github.io/ARSchool_DemoTemplate/assets/Rhino.glb",
+    "https://nahomane.github.io/ARSchool_DemoTemplate/assets/Skunk.glb",
+    "https://nahomane.github.io/ARSchool_DemoTemplate/assets/Turtle.glb",
+    "https://nahomane.github.io/ARSchool_DemoTemplate/assets/Ulysses_butterfly.glb",
+    "https://nahomane.github.io/ARSchool_DemoTemplate/assets/Vampire_bat.glb",
+    "https://nahomane.github.io/ARSchool_DemoTemplate/assets/Wolf.glb",
+    "https://nahomane.github.io/ARSchool_DemoTemplate/assets/Xenoceratops.glb",
+    "https://nahomane.github.io/ARSchool_DemoTemplate/assets/YellowJacket_wasp.glb",
+    "https://nahomane.github.io/ARSchool_DemoTemplate/assets/Zebra.glb"],
 
   glbModelsScales: [
     0.1,
@@ -70,39 +70,39 @@ window.ARApp = {
     "Dung Beetle description..."
   ],
   sounds: [
-    "./sounds/Alligator.mp3",
-    "./sounds/Bear.mp3",
-    "./sounds/Cat.mp3",
-    "./sounds/Dog.mp3",
-    "./sounds/Elephant.mp3",
-    "./sounds/Fox.mp3",
-    "./sounds/Giraffe.mp3",
-    "./sounds/Horse.mp3",
-    "./sounds/Iguana.mp3",
-    "./sounds/Jellyfish.mp3",
-    "./sounds/Kiwi.mp3",
-    "./sounds/Lion.mp3",
-    "./sounds/Mouse.mp3",
-    "./sounds/Newt.mp3",
-    "./sounds/Ostrich.mp3",
-    "./sounds/Penguin.mp3",
-    "./sounds/Quoll.mp3",
-    "./sounds/Rhino.mp3",
-    "./sounds/Skunk.mp3",
-    "./sounds/Turtle.mp3",
-    "./sounds/Ulysses_butterfly.mp3",
-    "./sounds/Vampire_bat.mp3",
-    "./sounds/Wolf.mp3",
-    "./sounds/Xenoceratops.mp3",
-    "./sounds/YellowJacket_wasp.mp3",
-    "./sounds/Zebra.mp3"
+    "https://nahomane.github.io/ARSchool_DemoTemplate/sounds/Alligator.mp3",
+    "https://nahomane.github.io/ARSchool_DemoTemplate/sounds/Bear.mp3",
+    "https://nahomane.github.io/ARSchool_DemoTemplate/sounds/Cat.mp3",
+    "https://nahomane.github.io/ARSchool_DemoTemplate/sounds/Dog.mp3",
+    "https://nahomane.github.io/ARSchool_DemoTemplate/sounds/Elephant.mp3",
+    "https://nahomane.github.io/ARSchool_DemoTemplate/sounds/Fox.mp3",
+    "https://nahomane.github.io/ARSchool_DemoTemplate/sounds/Giraffe.mp3",
+    "https://nahomane.github.io/ARSchool_DemoTemplate/sounds/Horse.mp3",
+    "https://nahomane.github.io/ARSchool_DemoTemplate/sounds/Iguana.mp3",
+    "https://nahomane.github.io/ARSchool_DemoTemplate/sounds/Jellyfish.mp3",
+    "https://nahomane.github.io/ARSchool_DemoTemplate/sounds/Kiwi.mp3",
+    "https://nahomane.github.io/ARSchool_DemoTemplate/sounds/Lion.mp3",
+    "https://nahomane.github.io/ARSchool_DemoTemplate/sounds/Mouse.mp3",
+    "https://nahomane.github.io/ARSchool_DemoTemplate/sounds/Newt.mp3",
+    "https://nahomane.github.io/ARSchool_DemoTemplate/sounds/Ostrich.mp3",
+    "https://nahomane.github.io/ARSchool_DemoTemplate/sounds/Penguin.mp3",
+    "https://nahomane.github.io/ARSchool_DemoTemplate/sounds/Quoll.mp3",
+    "https://nahomane.github.io/ARSchool_DemoTemplate/sounds/Rhino.mp3",
+    "https://nahomane.github.io/ARSchool_DemoTemplate/sounds/Skunk.mp3",
+    "https://nahomane.github.io/ARSchool_DemoTemplate/sounds/Turtle.mp3",
+    "https://nahomane.github.io/ARSchool_DemoTemplate/sounds/Ulysses_butterfly.mp3",
+    "https://nahomane.github.io/ARSchool_DemoTemplate/sounds/Vampire_bat.mp3",
+    "https://nahomane.github.io/ARSchool_DemoTemplate/sounds/Wolf.mp3",
+    "https://nahomane.github.io/ARSchool_DemoTemplate/sounds/Xenoceratops.mp3",
+    "https://nahomane.github.io/ARSchool_DemoTemplate/sounds/YellowJacket_wasp.mp3",
+    "https://nahomane.github.io/ARSchool_DemoTemplate/sounds/Zebra.mp3"
   ],
   loadingStates: [],
 };
 
 window.ARApp.init = function() {
   // const dracoLoader = new THREE.DRACOLoader();
-  // dracoLoader.setDecoderPath('../shared/DRACO/');
+  // dracoLoader.setDecoderPath('https://nahomane.github.io/ARSchool_DemoTemplate/shared/DRACO/');
   // this.gltfLoader.setDRACOLoader(dracoLoader);
   // this.loadModels(this.glbFilePaths, this.glbModelsScales)
   //   .then(() => {
@@ -176,9 +176,9 @@ window.ARApp.playSoundForCurrentModel = function() {
   this.currentlyPlayingAudio = new Audio(soundSrc);
   this.currentlyPlayingAudio.playbackRate = 0.8;
   this.currentlyPlayingAudio.play();
-  soundButtonImg.src = "../icons/pause.png";
+  soundButtonImg.src = "https://nahomane.github.io/ARSchool_DemoTemplate/icons/pause.png";
   this.currentlyPlayingAudio.onended = () => {
-    soundButtonImg.src = "../icons/play.png";
+    soundButtonImg.src = "https://nahomane.github.io/ARSchool_DemoTemplate/icons/play.png";
   };
 };
 
@@ -188,14 +188,14 @@ window.ARApp.toggleAudio = function (shouldPlay) {
 
   if(this.currentlyPlayingAudio!= null && !this.currentlyPlayingAudio.paused && !shouldPlay){
     this.currentlyPlayingAudio.pause();
-    soundButtonImg.src = "../icons/play.png";
+    soundButtonImg.src = "https://nahomane.github.io/ARSchool_DemoTemplate/icons/play.png";
   }else if(this.currentlyPlayingAudio!= null && this.currentlyPlayingAudio.paused && shouldPlay){
     this.currentlyPlayingAudio = new Audio(soundSrc);
     this.currentlyPlayingAudio.playbackRate = 0.8;
     this.currentlyPlayingAudio.play();
-    soundButtonImg.src = "../icons/pause.png";
+    soundButtonImg.src = "https://nahomane.github.io/ARSchool_DemoTemplate/icons/pause.png";
     this.currentlyPlayingAudio.onended = () => {
-      soundButtonImg.src = "../icons/play.png";
+      soundButtonImg.src = "https://nahomane.github.io/ARSchool_DemoTemplate/icons/play.png";
     }
   }
 }
@@ -203,12 +203,12 @@ window.ARApp.toggleAudio = function (shouldPlay) {
 window.ARApp.initUI = function() {
   const carousel = document.getElementById('modelCarousel');
   this.glbFilePaths.forEach((path, index) => {
-    const buttonImageName = new String(path).replace("./assets/","").replace(".glb","");
+    const buttonImageName = new String(path).replace("https://nahomane.github.io/ARSchool_DemoTemplate/assets/","").replace(".glb","");
     const button = document.createElement('button');
     button.style.background = "transparent";
     button.style.margin = "5px";
     button.classList.add('round-button');
-    button.innerHTML = `<img src="./thumbnails/${buttonImageName}.PNG" alt="Model ${index+1}"">`;
+    button.innerHTML = `<img src="https://nahomane.github.io/ARSchool_DemoTemplate/thumbnails/${buttonImageName}.PNG" alt="Model ${index+1}"">`;
     console.log(index+" "+path);
     button.onclick = () => {
       if(this.models[index] == undefined || this.models[index] == null) {
@@ -251,7 +251,7 @@ class Reticle extends THREE.Object3D {
     super();
 
     this.loader = new THREE.GLTFLoader();
-    this.loader.load("../assets/reticle.glb", (gltf) => {
+    this.loader.load("https://nahomane.github.io/ARSchool_DemoTemplate/assets/reticle.glb", (gltf) => {
       const glbreticle = gltf.scene;
       glbreticle.scale.set(1,1,1);
       gltf.scene.traverse(function(child){
